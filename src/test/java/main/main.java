@@ -50,6 +50,16 @@ public class main {
     }
 
 
+    @Test(priority = 4)
+    public void progress_bar ()
+    {
+        ProgressBar pb = new ProgressBar();
+        pb.progess(driver, 100);
+    }
+
+
+
+
 }
 
 
